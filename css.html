@@ -1,0 +1,131 @@
+<style>
+  
+  h3 {
+  text-align: center;
+}
+
+</style>
+<!-- ================================================================= -->
+<style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+    position: relative;
+  }
+
+#rect {
+  animation-name: rainbow;
+  animation-duration: 4s;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: blue;
+    top: 0px;
+    left: 0px;
+    
+  }
+  50% {
+    background-color: green;
+    top: 50px;
+    left: 25px;
+  }
+  100% {
+    background-color: yellow;
+    top: 0px;
+    left: -25px;
+  }
+}
+
+
+</style>
+
+<h3>Create Movement Using CSS Animation</h3>
+<div id="rect"></div>
+
+<!-- ================================================================== -->
+<style>
+
+  #ball {
+    width: 70px;
+    height: 70px;
+    margin: 50px auto;
+    position: fixed;
+    left: 20%;
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+
+  @keyframes fade {
+    50% {
+      left: 60%;
+      opasity: 0.1;
+    }
+  }
+
+</style>
+
+<h3>Create Visual Direction by Fading an Element from Left to Right</h3>
+<div id="ball"></div>
+
+
+<!-- ================================================================== -->
+
+<style>
+
+  #ball1 {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce{
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 249px;
+      width: 130px;
+      height: 70px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+</style>
+<div id="ball1"></div>
+<h3>Animate Elements Continually Using an Infinite Animation Count</h3>
+
+<!-- =============================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
