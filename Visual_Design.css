@@ -11,5 +11,12 @@
   }
 
   .card-background {
-    background: yellow;
+    /*background: yellow;*/
+    border: solid 1px;
   }
+
+  .card-body {
+    border: solid 1px;
+    background: lightgrey;
+  }
+  
